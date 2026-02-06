@@ -68,7 +68,7 @@ const Copy = styled.p`
 const App = () => {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Music-App">
       <Header>
         <Navigation/>
       </Header>
