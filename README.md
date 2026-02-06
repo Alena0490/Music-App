@@ -47,7 +47,7 @@ MIT
 
 ```---
 
-**GitHub Description (krátký, 1 řádek):**
+**GitHub Description (Music search app with React, TypeScript & iTunes API):**
 ```
 
 🎵 Modern music search app built with React, TypeScript, and iTunes AP
