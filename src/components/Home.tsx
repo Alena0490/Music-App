@@ -13,9 +13,13 @@ const Page = styled.section`
 `
 
 const Thumbnail = styled.img`
-  max-width: 450px;
-  border-radius: ${RADIUS.rdlarge};
-  margin: ${SPACING.small} auto 0;
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: ${RADIUS.rdlarge};
+    margin: ${SPACING.small} auto 0;
 `
 
 const Home = () => {
@@ -25,7 +29,13 @@ const Home = () => {
     return (
         <Page>
             <Title>{title}</Title>
-            <Thumbnail src={ThumbnailImg} alt="abstract background with headphones" />
+            <Thumbnail 
+                src={ThumbnailImg} 
+                alt="abstract background with headphones" 
+                fetchPriority="high"
+                width={450}
+                height={450}
+            />
         </Page>
     )
 }
