@@ -43,10 +43,14 @@ Error generating stack: `+a.message+`
   align-items: center;
   margin: ${bt.small} 0 0;
 `,_p=Ht.img`
-  max-width: 450px;
-  border-radius: ${yn.rdlarge};
-  margin: ${bt.small} auto 0;
-`,zp=()=>{const[i]=Z.useState("Welcome to the Sound");return lt.jsxs(Ap,{children:[lt.jsx(ao,{children:i}),lt.jsx(_p,{src:Tp,alt:"abstract background with headphones"})]})},xm=Om`
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: ${yn.rdlarge};
+    margin: ${bt.small} auto 0;
+`,zp=()=>{const[i]=Z.useState("Welcome to the Sound");return lt.jsxs(Ap,{children:[lt.jsx(ao,{children:i}),lt.jsx(_p,{src:Tp,alt:"abstract background with headphones",fetchPriority:"high",width:450,height:450})]})},xm=Om`
   display: inline-block;
   background: ${yt.primary};
   color: ${yt.background};
