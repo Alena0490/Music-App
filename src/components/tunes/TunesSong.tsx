@@ -87,6 +87,7 @@ const Audio = styled.audio`
   width: 92%;
   max-width: 320px;
   margin-top: auto;
+  filter: invert(100%);
   padding-top: ${SPACING.small};
   background: none;
   opacity: 0.85;
