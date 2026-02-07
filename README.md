@@ -1,5 +1,7 @@
 # Tunes Music App
 
+![Mockup](modern-browser-mockup.png)
+
 A modern music search application built with React and TypeScript, powered by the iTunes API.
 
 ## 🎵 Features
